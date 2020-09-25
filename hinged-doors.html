@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.comp.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Moon & Baker &mdash; Glass Doors and Windows</title><link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+ </head>
+
+<body id="hinged-doors-pg">
+    <div id="flyoutMenu" class="overlay-menu">
+        <div class="om-c">
+            <div class="om-logo-area" onclick="closeOverlay()">
+                <div class="om-logo">
+                    <svg  height="40" width="180">
+                        <use xlink:href="/assets/mbsvgsprite.svg#mb-full-logo"></use>
+                    </svg>
+                </div>
+               <div class="overlay-close">
+                <svg class="icon">
+                    <use xlink:href="/assets/icomoon/symbol-defs-1.svg#icon-cross"></use>
+                </svg>
+               </div>          
+            </div>
+            <div class="om-menu-items">
+                <div class="overlay-menu-item">
+                    <ul>
+                        <li>
+                            <h3> Menu</h3>
+                        </li>
+                       <a href="index.html"> <li> Home </li></a>
+                        <a href="contact-us.html"> <li> Contact</li></a>
+                    </ul>
+                </div>
+                <div class="overlay-menu-item">
+                    <ul>
+                        <li>
+                            <h3> Windows</h3>
+                        </li>
+                        <li>
+                            <a href="sliding-windows.html">Sliding Windows</a>
+                        </li>
+                        <li>
+                            <a href="double-hung-windows.html">Double Hung Windows</a>
+                        </li>
+                        <li>
+                            <a href="louvre-windows.html">Louvre Windows</a>
+                        </li>
+                        <li>
+                            <a href="awning-and-casement-windows.html">Awning & Casement Windows </a>
+                        </li>
+                        <li>
+                            <a href="bi-fold-windows.html">Bi-Fold Windows </a>
+                        </li>
+                        <li>
+                            <a href="fixed-windows.html">Fixed Windows </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="overlay-menu-item">
+                    <ul>
+                        <li>
+                            <h3> Doors</h3>
+                        </li>
+                        <li>
+                            <a href="sliding-doors.html">Sliding Doors</a>
+                        </li>
+                        <li>
+                            <a href="bi-fold-doors.html">Bi-Fold Doors</a>
+                        </li>
+                        <li>
+                            <a href="hinged-doors.html">Hinged Doors</a>
+                        </li>
+                        <li>
+                            <a href="pivot-doors.html">Pivot Doors</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <div class="pg-container">
+        <div class="pg-header-bar">
+            <div class="pg-header-bar-content">
+                <div class="pg-header-bar-left">
+                </div>
+                <div class="pg-header-bar-right">
+                    <div class="pg-hb-icons">
+                        <span>
+                            <svg class="icon">
+                                <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                            &nbsp;&nbsp;
+                            <svg class="icon">
+                                <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                            &nbsp;&nbsp;
+                            <svg class="icon">
+                                <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-whatsapp"></use>
+                            </svg>
+                            &nbsp;&nbsp; Ph: +91 80 48525508
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pg-menu">
+            <div class="pg-menu-content">
+                <div class="pg-menu-left">
+                    <svg height="40" width="180">
+                        <use xlink:href="/assets/mbsvgsprite.svg#mb-logo-name-and-tag"></use>
+                    </svg>
+                </div>
+                <div class="pg-menu-right">
+                    <div class="header-menu">
+                        <div id="menu-toggle" class="menu-toggle">
+                            <div class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="cross">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pg-body">
+            <div class="pg-banner">
+                <div class="pg-banner-content">
+                    <div class="pg-banner-left">
+                        <h1> Hinged Doors </h1>
+                        <p> Designed with style and security in mind, the Moon and Baker Hinged Door offers an
+                            attractive choice for main entry, balcony and exterior laundry room doors.
+                            Configurations include an expansive set of double doors or the economy of a single
+                            door – both can be combined with fixed side lights or overhead high lights to
+                            complete your entrance. </p>
+
+                    </div>
+                    <div class="pg-banner-right">
+                        <div id="captioned-gallery">
+                            <figure class="slider">
+                                <figure>
+                                    <img src="/assets/images/ack_mati_constructions-carousel.jpg" alt>
+                                    <figcaption>STUNNING WINDOWS & DOORS DESIGNED FOR THE WEATHER</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/assets/images/edit _M815185 HP 1.jpg" alt>
+                                    <figcaption>STUNNING WINDOWS & DOORS DESIGNED FOR THE WEATHER</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/assets/images/edit 12 Bruce008_cr HP2.jpg" alt>
+                                    <figcaption>STUNNING WINDOWS & DOORS DESIGNED FOR THE WEATHER</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/assets/images/edit 12 Thorley 007 HP3.jpg" alt>
+                                    <figcaption>STUNNING WINDOWS & DOORS DESIGNED FOR THE WEATHER</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/assets/images/edit ack_clamroc_constructions_42 Lakes HP11_0.jpg" alt>
+                                    <figcaption>STUNNING WINDOWS & DOORS DESIGNED FOR THE WEATHER</figcaption>
+                                </figure>
+                                <!--  <figure>
+                                    <img src="/assets/images/bifold6_2-lr.jpg" alt>
+                                    <figcaption>Utah, United States</figcaption>
+                                  </figure>  -->
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-features">
+                <div class="pg-features-content">
+                    <div class="pg-features-left">
+                        <ul>
+                            <li>Choice of 100mm or 125mm frame (125mm frame accepts all types of screen doors without
+                                the need for an add-on build-out)</li>
+                            <li>Perimeter seals provide an effective barrier to wind and rain</li>
+                            <li>The door leaf features a chamfered exterior profile for added style and reduced build-up
+                                of dust (compared to a flat profile)</li>
+                            <li> Matching sidelights and highlights</li>
+                        </ul>
+                    </div>
+                    <div class="pg-features-right">
+                        <h2> Features </h2>
+                        <ul>
+                            <li>Colonial and Hamptons style glazing bar designs possible</li>
+                            <li>Optional multi-point lever compression lock offers superior security while ensuring
+                                optimal compression between the door and weather seals</li>
+                            <li>Aluminium frame-only products available to accommodate third-party supplied timber
+                                door(s)</li>
+                            <li> 7 year 'peace of mind’ guarantee</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="pg-configurations">
+                <h3 class="pg-conf-header">
+                    Hinged Door Configurations
+                </h3>
+                <div class="pg-conf-imgs">
+                    <div class="conf2">
+                        <img src="/assets/images/hinged-doors/hinged-door-single-no-screen-1.jpg">
+                        <h4> Single Door</h4>
+                    </div>
+                    <div class="conf2">
+                        <img src="/assets/images/hinged-doors/hinged-door-double-no-screen-2.jpg">
+                        <h4> Double Doors</h4>
+                    </div>
+                    <div class="conf2">
+                        <img src="/assets/images/hinged-doors/hinged-door-single-with-screen-3.jpg">
+                        <h4> Single Door with Screen</h4>
+                    </div>
+                    <div class="conf2">
+                        <img src="/assets/images/hinged-doors/hinged-door-double-with-screen-4.jpg">
+                        <h4> Double Doors with Screens</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-considerations">
+                <h3 class="pg-consd-header">
+                    Hinged Door considerations
+                </h3>
+                <div class="pg-consd-imgs">
+                    <div class="consd2">
+                        <img src="/assets/images/product-colour-tile-1a.jpg">
+                        <h4> Colour Selector</h4>
+                        <p>Explore our selection of standard anodised finishes and powder coat colours to decide what best suits your colour scheme.</p>
+                    </div>
+                    <div class="consd2">
+                        <img src="/assets/images/TENTUFF-Screen.png">
+                        <h4>Screening Options</h4>
+                        <p>Our matching range of window and door screens allow you to choose the level of protection you want for your home.</p>
+                    </div>
+                    <div class="consd2">
+                        <img src="/assets/images/product-glass-tile-3a.jpg">
+                        <h4> Glass Solutions</h4>
+                        <p>
+                            Address such issues as heat, noise, safety, security, glare and fading - after all, Your Home, Your Glass.                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pg-handles">
+                <h3 class="pg-handle-header">
+                    Hinged Door Handle Options
+                </h3>
+                <div class="pg-handle-imgs">
+                    <div class="handl2">
+                        <img src="/assets/images/hinged-doors/edit hinged_door_hardware_black-1.jpg">
+                        <h4> Black</h4>
+                    </div>
+                    <div class="handl2">
+                        <img src="/assets/images/hinged-doors/edit hinged_door_hardware_satin_chorme-2.jpg">
+                        <h4> Satin Chrome</h4>
+                    </div>
+                    <div class="handl2">
+                        <img src="/assets/images/hinged-doors/edit hinged_door_hardware_white-3.jpg">
+                        <h4> White</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-residential">
+                <div class="pg-residential-content">
+                    <div class="pg-residential-left">
+                        <img src="/assets/images/sliding-door/residential-hinged.jpg">
+                    </div>
+                    <div class="pg-residential-right">
+                        <h2> Residential </h2>
+                        <p>
+                            Offers an attractive and stylish choice for your main entry, balcony, veranda and/or
+                            exterior laundry doors. Aluminium construction ensures minimal maintenance (compared to
+                            timber doors) while a single hinged door configuration is the perfect substitute for a
+                            sliding door where space is restricted. Customise your door to include a decorative glass or
+                            glazing bar design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-commercial">
+                <div class="pg-commercial-content">
+                    <div class="pg-commercial-left">
+                        <img src="/assets/images/sliding-door/commercial-hinged.jpg">
+                    </div>
+                    <div class="pg-commercial-right">
+                        <h2> Commercial </h2>
+                        <p>
+                            A practical and sturdy solution for accommodating a wider range of glass thicknesses, sizes
+                            and handle & lock combinations (compared to the 472 Series). With such versatility and
+                            proven durability, the 475 Series hinged door sets the benchmark in commercial-grade doors,
+                            ideally suited to high traffic entrances such as offices, retail outlets and unit complexes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-series-comparison">
+                <div class="pg-series-comparison-content">
+                    <h3>Sliding Door Series Comparison</h3>
+                    <table class="pg-spec-table">
+
+
+                        <thead>
+                            <tr>
+                                <th class="row_0 col_0"></th>
+                                <th class="row_0 col_1">472 Series Hinged</th>
+                                <th class="row_0 col_2">475 Series Hinged</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="row_1 col_0">Recommended Application</td>
+                                <td class="row_1 col_1">Housing</td>
+                                <td class="row_1 col_2">Low rise apartment, commercial &amp; retail applications</td>
+                            </tr>
+                            <tr>
+                                <td class="row_2 col_0">Perimeter Frame Options</td>
+                                <td class="row_2 col_1">• 101mm (Inwards or outwards opening)
+                                    <br>
+                                    • 125mm (inward
+                                    opening doors / outward opening screen)</td>
+                                <td class="row_2 col_2">101mm &amp; 152mm</td>
+                            </tr>
+                            <tr>
+                                <td class="row_3 col_0">AS 1428 (DA) Compliant Sill / Threshold</td>
+                                <td class="row_3 col_1">No</td>
+                                <td class="row_3 col_2">• 101mm - 475-008
+                                    <br>
+                                    • 152mm - 675-005 or
+                                    675-036</td>
+                            </tr>
+                            <tr>
+                                <td class="row_4 col_0">Screening</td>
+                                <td class="row_4 col_1"> Fly & Tentuff Security screens to 125mm frame only</td>
+                                <td class="row_4 col_2">Fly &amp;Tentuff outwards opening screens in retro-fit frame
+                           </td> </tr>
+                            <tr>
+                                <td class="row_5 col_0">Max. Water Penetration</td>
+                                <td class="row_5 col_1">• 150 Pa. - Standard sill
+                                    <br>
+                                    • 450 Pa. - Outward
+                                    opening configuration
+                                    with sub-sill</td>
+                                <td class="row_5 col_2">200 Pa. using 475-021 threshold with sub-sill ¹</td>
+                            </tr>
+                            <tr>
+                                <td class="row_6 col_0">Glazing</td>
+                                <td class="row_6 col_1">• Single glazed - up to 6.38mm
+                                    <br>
+                                    • Double glazed (IGU) - 20mm</td>
+                                <td class="row_6 col_2">• Up to 11.52mm -
+                                    475-200 Series
+                                    <br>
+                                    • Up to 15mm -
+                                    475-300 Series
+                                    <br>
+                                    • Up to 30.52mm -
+                                    476-200 Series</td>
+                            </tr>
+                            <tr>
+                                <td class="row_7 col_0">Max. Size.</td>
+                                <td class="row_7 col_1">• Single Door - 2400mm (h) x 950mm (w) ²
+                                    <br>
+                                    • Double Door - 2400mm (h) x 1810mm (w) ²</td>
+                                <td class="row_7 col_2">2700mm (h) x 1000mm (w) ³</td>
+                            </tr>
+                            <tr>
+                                <td class="row_8 col_0">Energy Ratings Available</td>
+                                <td class="row_8 col_1">Yes</td>
+                                <td class="row_8 col_2">Yes</td>
+                            </tr>
+                            <tr>
+                                <td class="row_9 col_0">Max. Acoustic
+                                    Rating ⁴</td>
+                                <td class="row_9 col_1">Rw 31</td>
+                                <td class="row_9 col_2">Rw 35</td>
+                            </tr>
+                            <tr>
+                                <td class="row_10 col_0">Bushfire Attack Level</td>
+                                <td class="row_10 col_1">Tested and certified to BAL-40 ⁴</td>
+                                <td class="row_10 col_2">No</td>
+                            </tr>
+                            <tr>
+                                <td class="row_11 col_0">Handle/ Lock Options</td>
+                                <td class="row_11 col_1">Lever handle with optional multi-point locking</td>
+                                <td class="row_11 col_2">Dependent on application, consult your G.James representative
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="pg-footer">
+            <div class="pg-footer-content">
+                <div class="pg-foot-logo">
+                    <a href="index.html"> <img width="150" src="/assets/images/moon-and-baker-logo-white.png" /> </a>
+                    <h5> Doors and Windows designed for all weather</h5>
+                </div>
+                <div class="pg-foot-door-menu">
+                    <h4 class="text-uppercase mb-4 font-weight-bold">Windows</h4>
+                    <p>
+                        <a href="sliding-windows.html">Sliding Windows</a>
+                    </p>
+                    <p>
+                        <a href="double-hung-windows.html">Double Hung Windows</a>
+                    </p>
+                    <p>
+                        <a href="louvre-windows.html">Louvre Windows</a>
+                    </p>
+                    <p>
+                        <a href="awning-and-casement-windows.html">Awning & Casement Windows </a>
+                    </p>
+                    <p>
+                        <a href="bi-fold-windows.html">Bi-Fold Windows </a>
+                    </p>
+                    <p>
+                        <a href="fixed-windows.html">Fixed Windows </a>
+                    </p>
+                </div>
+                <div class="pg-foot-window-menu">
+                    <h4 class="text-uppercase mb-4 font-weight-bold">Doors</h4>
+                    <p>
+                        <a href="sliding-doors.html">Sliding Doors</a>
+                    </p>
+                    <p>
+                        <a href="bi-fold-doors.html">Bi-Fold Doors</a>
+                    </p>
+                    <p>
+                        <a href="hinged-doors.html">Hinged Doors</a>
+                    </p>
+                    <p>
+                        <a href="pivot-doors.html">Pivot Doors</a>
+                    </p>
+                </div>
+                <div class="pg-foot-contact">
+                    <h4 class="text-uppercase mb-4 font-weight-bold">Contact</h4>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> SSA India #2968, 4th Cross,
+                        <br /> Off 12th Main Road,
+                        Indiranagar, <br /> Bangalore - 560038 </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@ssaind.co.in</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> +91 80 48525508
+                    </p>
+                </div>
+                <div class="pg-foot-copyright"> © 2020 Copyright: SSA India</div>
+                <div class="pg-foot-social">
+                    <span>
+                        <svg>
+                            <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                        &nbsp;&nbsp;
+                        <svg>
+                            <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                        &nbsp;&nbsp;
+                        <svg>
+                            <use xlink:href="/assets/icomoon/symbol-defs.svg#icon-whatsapp"></use>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/flyover.js"></script>
+    <script src="js/showmore.js"></script>
+   </body>
+   
+   </html>
